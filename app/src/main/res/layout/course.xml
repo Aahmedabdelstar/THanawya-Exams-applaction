@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:id="@+id/line1"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="رياضة 1"
+
+        android:id="@+id/math1"
+
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10sp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="رياضة 2"
+        android:id="@+id/math2"
+
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/math1"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/line2"
+        android:layout_below="@+id/line1"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="احياء"
+        android:id="@+id/biology"
+
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="كيمياء"
+        android:id="@+id/chemistry"
+
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/line3"
+        android:layout_below="@+id/line2"
+
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="فيزياء"
+        android:id="@+id/physics"
+
+
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="جيولوجيا"
+        android:id="@+id/geology"
+
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/line4"
+        android:layout_below="@+id/line3"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="انجليزي"
+        android:id="@+id/English"
+
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="فرنساوي"
+        android:id="@+id/French"
+
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/line5"
+        android:layout_below="@+id/line4"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="جغرافيا"
+        android:id="@+id/geography"
+
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="تاريخ"
+        android:id="@+id/history"
+
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/line5"
+        android:id="@+id/line6"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="فلسفة"
+        android:id="@+id/philos"
+
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="علم نفس"
+        android:id="@+id/psych"
+
+
+        android:visibility="visible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/line6"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="عربي"
+            android:id="@+id/Arabic"
+            android:visibility="visible"
+            android:background="#ffffff"
+            android:textColor="#a82323"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="2017"
+        android:id="@+id/sud_2017"
+
+
+        android:visibility="invisible"
+        android:background="#ffffff"
+        android:textColor="#a82323"/>
+</LinearLayout>
+
+
+
+</LinearLayout>

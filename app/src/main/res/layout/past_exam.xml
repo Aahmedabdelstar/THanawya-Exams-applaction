@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="15dp"
+        android:id="@+id/course_spinner"
+        android:visibility="invisible" />
+
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:id="@+id/pdfView"
+        android:layout_below="@+id/course_spinner"
+
+        android:visibility="visible" />
+
+
+
+</RelativeLayout>

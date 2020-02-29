@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ahmedabdelsttar.sec_final.splash_screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/student"
+
+        android:scaleType="fitXY"
+        android:layout_gravity="right|left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Please Wait..."
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+
+        android:id="@+id/tvPleaseWait"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="10dp"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/tvPleaseWait"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+
+
+
+</RelativeLayout>
